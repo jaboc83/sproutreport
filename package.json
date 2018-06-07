@@ -1,0 +1,22 @@
+{
+  "name": "sproutreport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaboc83/sproutreport.git"
+  },
+  "author": "Jake Moening",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaboc83/sproutreport/issues"
+  },
+  "homepage": "https://github.com/jaboc83/sproutreport#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

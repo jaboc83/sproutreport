@@ -1,9 +1,6 @@
-const express = require('express');
-const app = express();
-console.log("PAST THE REQUIRE");
+var http = require('http');
+http.createServer(function(req, res) {
+    res.writeHead(200, {'Content-Type':'text/plain'});
 
-const port = process.env.port || 3000;
-
-app.get('/', (req, res) => res.send('Hello World!'));
-
-app.listen(port, () => console.log('Example app listening!'));
+    res.end('Hello World\n');
+}).listen(process.env.port || 80)
